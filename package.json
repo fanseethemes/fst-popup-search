@@ -2,34 +2,14 @@
   "name": "fst-popup-search",
   "version": "1.0.0",
   "description": "",
-  "main": "src/js/fst-popup-search.js",
+  "main": "dist/fst-popup-search.js",
   "scripts": {
-    "start": "webpack --progress --watch --mode=development",
-    "build": "webpack --progress --mode=production",
+    "start": "node-sass -w src/scss/fst-popup-search.scss dist/fst-popup-search.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   }, 
   "keywords": [
     "popup-search"
   ],
   "author": "fanseethemes",
-  "license": "GPL",
-  "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "autoprefixer": "^9.7.0",
-    "babel-loader": "^8.0.6",
-    "copy-webpack-plugin": "^5.1.1",
-    "css-loader": "^3.2.0",
-    "cssnano": "^4.1.10",
-    "file-loader": "^5.0.2",
-    "imagemin-webpack": "^5.1.1",
-    "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.13.0",
-    "postcss-loader": "^3.0.0",
-    "sass": "^1.23.1",
-    "sass-loader": "^8.0.0",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
-  }
+  "license": "GPL"
 }
